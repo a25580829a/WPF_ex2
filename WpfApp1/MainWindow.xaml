@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FFADD6EF">
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="74" Margin="288,38,0,0" TextWrapping="Wrap" Text="a, a, a, b , , .b c. c a. a,d,d a c, c, b, b   c" VerticalAlignment="Top" Width="236"/>
+        <Label x:Name="label" Content="請輸入字串:" HorizontalAlignment="Left" Height="54" Margin="99,48,0,0" VerticalAlignment="Top" Width="146" FontSize="18" FontFamily="Cascadia Code"/>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Height="54" Margin="569,107,0,0" VerticalAlignment="Top" Width="124" Click="button_Click" Background="#FFA3D6AB" FontFamily="Cascadia Code"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="145" Margin="172,270,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="408"/>
+        <Label x:Name="label1" Content="請輸入要計算次數的&quot;文字&quot;&#xA;(以,分開):" HorizontalAlignment="Left" Height="62" Margin="19,155,0,0" VerticalAlignment="Top" Width="245" FontSize="18" FontFamily="Cascadia Code"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="52" Margin="288,155,0,0" TextWrapping="Wrap" Text="a,b,c,d" VerticalAlignment="Top" Width="236"/>
+
+    </Grid>
+</Window>
